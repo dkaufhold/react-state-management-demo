@@ -2,6 +2,14 @@
 
 A demo repo to show React state container pattern, upgrading to redux and handling async actions.
 
+## Run locally
+
+```bash
+$ git clone https://github.com/dkaufhold/react-state-management-demo.git
+$ cd react-state-management-demo
+$ yarn # or `npm i`
+$ yarn start # or `npm start`
+```
 
 ## 1. The Container Pattern
 
