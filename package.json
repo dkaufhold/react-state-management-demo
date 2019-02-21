@@ -1,0 +1,19 @@
+{
+  "name": "reactstatemanagementdemo",
+  "version": "1.0.0",
+  "description": "A demo repo to show React state container pattern, upgrading to redux and handling async actions.",
+  "keywords": ["react", "redux", "thunk", "state", "best practices"],
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+  },
+  "devDependencies": {
+    "react-scripts": "*"
+  },
+  "author": "Daniel Kaufhold",
+  "license": "ISC"
+}
