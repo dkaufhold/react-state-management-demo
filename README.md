@@ -55,7 +55,7 @@ First of all a word of warning: Under no circumstances should you try to dispatc
 
 And if you're now thinking "But I could think of a use case where..." NO! Bad Developer! No side effects inside a reducer!
 
-That's why we have a thing called redux thunk. (other async redux middlewares are available like redux-sage or even the mighty redux-observable (which as the name suggests works based on observables)).
+That's why we have a thing called redux thunk. (other async redux middlewares are available like redux-saga or even the mighty redux-observable (which as the name suggests works based on observables)).
 
 If you want to dispatch different actions along a longer asynchronous process, like fetching data from a server, you need something like the thunk middleware, that can resolve and handle an async action creator and pass the dispatched actions on to redux.
 
